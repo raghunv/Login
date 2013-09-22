@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E059CBF17ED6917006B0ECA /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E059CBE17ED6917006B0ECA /* images.jpg */; };
+		5E059CC117ED6DB9006B0ECA /* images1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E059CC017ED6DB9006B0ECA /* images1.jpg */; };
 		5EC33F8817ED557000858078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC33F8717ED557000858078 /* UIKit.framework */; };
 		5EC33F8A17ED557000858078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC33F8917ED557000858078 /* Foundation.framework */; };
 		5EC33F8C17ED557000858078 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC33F8B17ED557000858078 /* CoreGraphics.framework */; };
@@ -18,9 +20,13 @@
 		5EC33F9E17ED557000858078 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EC33F9D17ED557000858078 /* Default-568h@2x.png */; };
 		5EC33FA117ED557000858078 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC33FA017ED557000858078 /* ViewController.m */; };
 		5EC33FA417ED557000858078 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC33FA217ED557000858078 /* ViewController.xib */; };
+		5EC33FAD17ED585200858078 /* HomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC33FAB17ED585200858078 /* HomeScreen.m */; };
+		5EC33FAE17ED585200858078 /* HomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EC33FAC17ED585200858078 /* HomeScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E059CBE17ED6917006B0ECA /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = SOURCE_ROOT; };
+		5E059CC017ED6DB9006B0ECA /* images1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images1.jpg; path = ../../Pictures/images1.jpg; sourceTree = "<group>"; };
 		5EC33F8417ED557000858078 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC33F8717ED557000858078 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5EC33F8917ED557000858078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +43,9 @@
 		5EC33F9F17ED557000858078 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5EC33FA017ED557000858078 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5EC33FA317ED557000858078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5EC33FAA17ED585200858078 /* HomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreen.h; sourceTree = "<group>"; };
+		5EC33FAB17ED585200858078 /* HomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreen.m; sourceTree = "<group>"; };
+		5EC33FAC17ED585200858078 /* HomeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,10 @@
 		5EC33F7B17ED556F00858078 = {
 			isa = PBXGroup;
 			children = (
+				5EC33FAA17ED585200858078 /* HomeScreen.h */,
+				5EC33FAB17ED585200858078 /* HomeScreen.m */,
+				5E059CC017ED6DB9006B0ECA /* images1.jpg */,
+				5EC33FAC17ED585200858078 /* HomeScreen.xib */,
 				5EC33F8D17ED557000858078 /* Login */,
 				5EC33F8617ED557000858078 /* Frameworks */,
 				5EC33F8517ED557000858078 /* Products */,
@@ -83,6 +96,7 @@
 		5EC33F8D17ED557000858078 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				5E059CBE17ED6917006B0ECA /* images.jpg */,
 				5EC33F9617ED557000858078 /* AppDelegate.h */,
 				5EC33F9717ED557000858078 /* AppDelegate.m */,
 				5EC33F9F17ED557000858078 /* ViewController.h */,
@@ -163,6 +177,9 @@
 				5EC33F9C17ED557000858078 /* Default@2x.png in Resources */,
 				5EC33F9E17ED557000858078 /* Default-568h@2x.png in Resources */,
 				5EC33FA417ED557000858078 /* ViewController.xib in Resources */,
+				5EC33FAE17ED585200858078 /* HomeScreen.xib in Resources */,
+				5E059CBF17ED6917006B0ECA /* images.jpg in Resources */,
+				5E059CC117ED6DB9006B0ECA /* images1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +193,7 @@
 				5EC33F9417ED557000858078 /* main.m in Sources */,
 				5EC33F9817ED557000858078 /* AppDelegate.m in Sources */,
 				5EC33FA117ED557000858078 /* ViewController.m in Sources */,
+				5EC33FAD17ED585200858078 /* HomeScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +316,7 @@
 				5EC33FA917ED557000858078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
